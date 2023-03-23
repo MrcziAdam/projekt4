@@ -15,6 +15,12 @@
     <link rel="shortcut icon" href="kepek/kave.jpg" type="image/x-icon">
 </head>
 <body class="fluid">
+  <!--popover elindító script w3schoolsról-->
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+    </script>
     <div id="con" class="container">
         <h6>
             <ul id="nav" class="nav nav-tabs">
@@ -86,7 +92,36 @@
           <h1 id="h1">Lucky &#127808;  - Mi kis kávézónk</h1>   
           <hr>
               <p>Ismerkedj meg sütemény kínálatunkkal.</p>
-       
-    </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-deck">
+                  <div class="card" style="width:300px">
+                    <img class="card-img-top" src="kepek/tiramisu.jpg" alt="Tiramisu kép">
+                    <div class="card-body">
+                      <h4 class="card-title">Tiramisu</h4>
+                      <p class="card-text">Ár: 700 Ft</p>
+                      <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A tiramisu egy olasz desszert amelyben van tojás, cukor, mascarpone, kávé, konyak és kakaópor." data-content="popover">Bővebben</button>                                                                                     
+                    </div>
+                  </div>
+                    <div class="card" style="width:300px">
+                      <img class="card-img-top" src="kepek/brownie.jpg" alt="Brownie kép">
+                      <div class="card-body">
+                        <h4 class="card-title">Kávés Brownie</h4>
+                        <p class="card-text">Ár: 590 Ft</p>
+                        <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A kávés brownie egy amerikai sütemény amelyben van vaj, étcsokoládé, cukor, kávé és liszt." data-content="popover">Bővebben</button>                                                                                     
+                      </div>
+                    </div>
+                    <div class="card" style="width:300px">
+                      <img class="card-img-top" src="kepek/tiramisu.jpg" alt="Muffin kép">
+                      <div class="card-body">
+                        <h4 class="card-title">Kávés Muffin</h4>
+                        <p class="card-text">Ár: 490 Ft</p>
+                        <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A kávés muffin egy." data-content="popover">Bővebben</button>                                                                                     
+                      </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+              
 </body>
 </html>
