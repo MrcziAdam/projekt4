@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="kavek.css">
 </head>
 <body class="fluid">
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+    </script>
     <div id="con" class="container">
         <h6>
             <ul id="nav" class="nav nav-tabs">
@@ -27,19 +32,11 @@
             <li class="nav-item">
               <a id="a" class="nav-link" href="index.html">Főoldal</a>
             </li>
-            <li class="nav-item dropdown">
-              <a id="a" class="nav-link dropdown-toggle" data-toggle="dropdown" href="sutik.html">Sütik</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="sutik.html">Fajták</a>
-                <a class="dropdown-item" href="sutik.html">Árak</a>
-                <a class="dropdown-item" href="sutik.html">Összetevök</a></div>
+            <li class="nav-item">
+              <a id="a" class="nav-link" data-toggle="" href="sutik.html">Sütik</a>
             </li>
-            <li class="nav-item dropdown">
-                <a id="a" class="nav-link dropdown-toggle" data-toggle="dropdown" href="kavek.html">Kávék</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="kavek.html">Fajták</a>
-                  <a class="dropdown-item" href="kavek.html">Árak</a>
-                  <a class="dropdown-item" href="kavek.html">Összetevök</a></div>
+            <li class="nav-item">
+                <a id="a" class="nav-link" data-toggle="" href="kavek.html">Kávék</a>
               </li>
           </ul>
         </h6>
@@ -110,8 +107,7 @@
             <h4 class="card-title">Espresso</h4>
             <p class="card-text">80ml</p>
             <p class="card-text"> 1300Ft </p>
-            <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A tökéletes espresso készítés rövid ellenőrzőlistája:" data-content="popover">Bővebben</button>                                                                                           
-            
+            <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A tiramisu egy olasz desszert amelyben van tojás, cukor, mascarpone, kávé, konyak és kakaópor." data-content="popover">Bővebben</button>
           </div>
         </div>
         <br>
@@ -122,7 +118,7 @@
           <h4 class="card-title">Americano</h4>
           <p class="card-text"> 50ml</p>
           <p class="card-text"> 1200Ft  </p>
-          <a href="#section2" class="btn btn-primary">Bővebben</a>
+          <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A tiramisu egy olasz desszert amelyben van tojás, cukor, mascarpone, kávé, konyak és kakaópor." data-content="popover">Bővebben</button>
            </div>
         </div>
       </div>
@@ -133,7 +129,7 @@
           <h4 class="card-title">Cappucino</h4>
           <p class="card-text">120ml</p>
           <p class="card-text">2000Ft </p>
-          <a href="#section3" class="btn btn-primary">Bővebben</a>
+          <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A tiramisu egy olasz desszert amelyben van tojás, cukor, mascarpone, kávé, konyak és kakaópor." data-content="popover">Bővebben</button>
         </div>
       </div>
          <br>
@@ -143,7 +139,7 @@
         <h4 class="card-title">Latte Machiato</h4>
         <p class="card-text">250ml</p>
         <p class="card-text">2200Ft </p>
-        <a href="#section4" class="btn btn-primary">Bővebben</a>
+        <button type="button" class="btn btn-lg btn-info" data-toggle="popover" title="A tiramisu egy olasz desszert amelyben van tojás, cukor, mascarpone, kávé, konyak és kakaópor." data-content="popover">Bővebben</button>
       </div>
     </div>
     </div> 
