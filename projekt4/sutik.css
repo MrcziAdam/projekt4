@@ -1,3 +1,6 @@
+body{
+    background-image: url(kepek/coffee-5447420__340.jpg);
+}
 #con{
     background-color:rgb(255, 223, 205);;
     color: rgb(153, 76, 76);
@@ -53,4 +56,22 @@ img {vertical-align: middle;}
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#kep{
+    width: 690px;
+    height: 440px;
+}
+#h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
