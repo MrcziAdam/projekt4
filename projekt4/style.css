@@ -1,5 +1,5 @@
 body{
-    background-image: url(kepek/green.jpg);
+    background-image: url(kepek/coffee-5447420__340.jpg);
 }
 #con{
     background-color: blanchedalmond;
@@ -74,13 +74,4 @@ img {vertical-align: middle;}
 }
 #h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#sutik{
-    height: auto;
-    width: 100 px;
-}
-.card-img-top {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
 }
