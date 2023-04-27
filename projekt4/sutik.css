@@ -81,3 +81,6 @@ img {vertical-align: middle;}
   height: 15vw;
   object-fit: cover;
 }
+#card{
+  background-color: rgb(230, 172, 86);
+}
